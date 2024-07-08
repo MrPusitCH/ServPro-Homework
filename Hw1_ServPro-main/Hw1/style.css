@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    margin: 20px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin-left: 150px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+header h1{
+    margin: 0;
+}
+
+header h3{
+    margin-bottom: 30px;
+}
+
+.container{
+    margin: 0px 150px 0px 150px;
+    top: 0;
+    left: 0;
+}
+
+.container h6{
+    margin: 0;
+}
+
+.container h5{
+    font-size: 16px;
+    background-color: gray;
+    margin: 15px 0 15px 0;
+}
+
+.container .radio{
+    margin-left: 40px;
+}
+
+.container .sub-radio{
+    margin-left: 250px;
+}
+.container h4{
+    margin: 0;
+}
+
+.container p{
+    margin: 0;
+}
+.container .footer{
+    margin-top: 50px;
+}
+
+button {
+    display: block;
+    margin:20px  auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logo-image {
+    max-width: 100px;
+    height: auto;
+}
+
+        .photo-frame {
+            width: 2.5cm;
+            height: 3.25cm;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            background-color: #f0f0f0;
+            position: relative;
+            margin: 20px auto;
+            margin-right: 80px;
+        }
+
+        .file-input-wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .file-input {
+            opacity: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .select-button {
+            z-index: 1;
+            padding: 5px 10px;
+            background-color: #fff;
+            border: 1px solid #000;
+            cursor: pointer;
+            position: relative; /* ให้สามารถกำหนดตำแหน่งของข้อความได้ */
+        }
+
+        .select-button .button-text {
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 14px;
+            white-space: nowrap;
+            color: #555; /* เพิ่มสีเทาเพื่อความชัดเจน */
+        }
+        
+    
+.datesheet {
+    float: right; /* ใช้ float เพื่อขยับไปทางขวาของหน้าเว็บ */
+    justify-content: center;
+    align-items: center;
+    margin: auto 60px auto auto;
+}
